@@ -1,0 +1,261 @@
+body{
+    background-image: url(./img/Design.png);
+    background-repeat: no-repeat;
+    background-position: -10px -100px;
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+
+.flex{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+.no-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+.meny-center{
+    margin-left: 209px;
+}
+
+.meny-center a{
+
+    margin-left: 40px;
+}
+
+.meny-right a{
+   border: 2px solid #0DB760;
+   border-radius: 12px ;
+   padding: 16px 24px;
+   margin-left: 213px;
+}
+
+.main-left h2{
+    font-size: 58px;
+    color: black;
+    width: 561px;
+}
+
+.main-left h2 span{
+    color: #0DB760;
+}
+
+.main-left p{
+    font-size: 16px;
+    color: #323433;
+    width: 540px;
+}
+
+.main-left-inside{
+    margin-right: 345px;
+}
+
+.main-left-inside a{
+    margin-right: 24px;
+    background-color: #0DB760;
+    padding: 16px 24 px;
+    border-radius: 12px;
+    color: white;
+}
+
+
+.completed{
+    text-align: left;
+    margin-top: 188px;
+}
+
+.completed div{
+    margin-left: 106px;
+    border-right: 1px solid #0DB760;
+    padding-right: 106px;
+    
+}
+
+.completed div h2{
+    color: #0DB760;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+
+.completed div h3{
+    color: #000000;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: -24px;
+}
+
+
+.my-skills{
+    margin: 160px 188px;
+}
+
+.my-skills-right {
+    margin-left: 67px;
+}
+
+.my-skills-right-1{
+    margin-right: 30px;
+}
+
+.portfolio{
+    margin-left: 160px;
+}
+
+.portfolio-left{
+    margin-right: 43px;
+}
+
+.portfolio-left h2{
+    font-size: 40px;
+    color: #0B0C0C;
+    font-weight: 600;
+    width: 346px;
+}
+
+.portfolio-left p{
+    font-size: 16px;
+    color: #323433;
+    font-weight: 400;
+    width: 350px;
+    margin-bottom: 40px;
+}
+
+
+.portfolio-left a{
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 500;
+
+    background-color: #0DB760;
+    padding: 16px 26px;
+    border-radius: 12px;
+
+}
+
+.portfolio-right img{
+    width: 175px;
+}
+
+.reviews{
+    margin: 185px 160px;
+}
+
+.reviews h2{
+    width: 400px;
+    font-size: 40px;
+    font-weight: 600px;
+    color: #0B0C0C;
+}
+
+.review-card{
+    margin: 40px 30px;
+}
+
+.review-card p{
+    width: 416px;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #11142D;
+}
+
+.review-card-person-rights h4{
+    font-size: 16px;
+    font-weight: 600px;
+    color: #11142D;
+}
+
+.review-card-person-rights h5{
+    font-size: 14px;
+    font-weight: 500px;
+    color: #92929D;
+}
+
+.review-card-person-left{
+    margin-right: 16px;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact h2{
+    font-size: 40px;
+    font-weight: 600px;
+    color: #0B0C0C;
+}
+
+.contact p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #323433;
+    width: 509px;
+}
+
+.contact-in-l{
+    margin: 24px 54px;
+}
+
+.contact-in-l-right{
+    margin-left: 18px;
+}
+
+.contact-in-l-right h4{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #92929D;
+}
+
+.contact-in-l-right h3{
+    font-size: 16px;
+    font-weight: 500px;
+    color: #11142D;
+}
+
+
+
+.contact-inside-right input{
+    padding: 16px 243px 16px 24px;
+    margin: 24px;
+    border: 1px solid #BEC0BF;
+    border-radius: 8px;
+}
+.c-i-r-messages-main input{
+    padding: 16px 612px 130px 24px;
+}
+
+.c-i-r-messages-main a{
+   padding: 16px 24px;
+   background-color: #0DB760;
+   color: white;
+   border-radius: 12px;
+}
+
+footer{
+    margin-top: 160px;
+}
+
+footer p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #000000;
+    margin-right: 300px;
+}
+
+.footer-icons img{
+    margin-right: 16px;
+}
